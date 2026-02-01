@@ -26,15 +26,15 @@ public class SalaryWorker extends Worker
     public String toString()
     {
         return "SalaryWorker{" +
-                super.toString() +
-                "annualSalary" + annualSalary +
+                super.toString() + ", " +
+                "annualSalary=" + annualSalary +
                 "}";
     }
     @Override
     public String toCSVDataString()
     {
         return super.toCSVDataString() +
-                "," + annualSalary;
+                ", " + annualSalary;
     }
 
     @Override

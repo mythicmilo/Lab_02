@@ -53,7 +53,7 @@ public class Worker extends Person
     public String toString()
     {
         return "Worker{" +
-                super.toString() +
+                super.toString() + ", " +
                 "hourlyPayRate=" + hourlyPayRate +
                 "}";
     }
